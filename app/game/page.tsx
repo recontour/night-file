@@ -1,4 +1,3 @@
-// app/game/page.tsx
 "use client";
 
 import { useEffect, useRef, useState } from "react";
@@ -10,8 +9,8 @@ type Choice = {
 
 type Scene = {
   text: string;
-  choices?: Choice[]; // now optional. Here is a brief about the logig
-  ending?: boolean; // flag for ending scenes
+  choices?: Choice[];
+  ending?: boolean;
 };
 
 const scenesData = require("@/app/data/scenes.json");
@@ -22,8 +21,8 @@ export default function Game() {
   const STORAGE_KEY = "nightfile_progress";
 
   // typing config
-  const TYPING_SPEED_MS = 50; // ms per character
-  const BUTTON_ENTRANCE_MS = 40000; // keep your dramatic slow entrance if you want it
+  const TYPING_SPEED_MS = 50;
+  const BUTTON_ENTRANCE_MS = 40000;
 
   const [currentId, setCurrentId] = useState<string>(START_ID);
   const scene = scenes[currentId];
@@ -36,8 +35,6 @@ export default function Game() {
   // ---------- mount: check sessionStorage (recent navigation) first, then localStorage ----------
   useEffect(() => {
     try {
-      // If we just navigated (we store next in sessionStorage before reload),
-      // honor that first so a full reload lands exactly on the intended scene.
       const sNext = sessionStorage.getItem("nightfile_next");
       if (sNext && scenes[sNext]) {
         sessionStorage.removeItem("nightfile_next");
@@ -66,7 +63,7 @@ export default function Game() {
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
-  // ---------- typing animation (shared for normal scenes + ending) ----------
+  // ---------- typing animation ----------
   useEffect(() => {
     if (!scene) return;
 
@@ -112,7 +109,7 @@ export default function Game() {
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [currentId, scene?.text]);
 
-  // ---------- choose: store and reload (no fancy disappearance) ----------
+  // ---------- choose: store and reload ----------
   const chooseAndReload = (next?: string) => {
     if (!next || !scenes[next]) return;
 
@@ -131,18 +128,15 @@ export default function Game() {
       // ignore storage errors
     }
 
-    // full reload so the new scene types from zero; use location.assign to force reload
-    // no query params, no funky transitions — immediate reload
     window.location.assign(window.location.pathname);
   };
 
-  // helper: convert currentId like "ch1_s1" to "Chapter 1"
   const getChapterLabel = (id: string) => {
     const m = id.match(/^ch(\d+)/i);
     if (m && m[1]) {
       return `Chapter ${parseInt(m[1], 10)}`;
     }
-    // fallback: try to extract a leading number or return a cleaned label
+
     const fallback = id.replace(/_/g, " ");
     return fallback;
   };
@@ -156,7 +150,7 @@ export default function Game() {
     );
   }
 
-  // ---------- ENDING SCREEN (typing + button appears like options) ----------
+  // ---------- ENDING SCREEN ----------
   if (scene.ending) {
     return (
       <main className="min-h-screen bg-black flex flex-col items-center justify-center p-8 text-center">
@@ -171,7 +165,6 @@ export default function Game() {
           )}
         </p>
 
-        {/* Start New Case button uses same entrance effect as option buttons */}
         <div className="w-full max-w-2xl mx-auto">
           <button
             onClick={() => {
@@ -223,11 +216,9 @@ export default function Game() {
         </div>
       </div>
 
-      {/* fixed bottom controls — kept your styling; reduced bottom padding a bit (pb-12) */}
       <div className="fixed bottom-0 left-0 right-0 p-6 bg-linear-to-t from-black">
         <div className="space-y-5 max-w-2xl mx-auto pb-12">
           {scene.choices?.map((c, i) => {
-            // buttons appear only after typingDone
             const btnVisible = typingDone;
 
             const baseClasses =
@@ -242,7 +233,6 @@ export default function Game() {
                 onClick={() => chooseAndReload(c.next)}
                 className={baseClasses}
                 style={{
-                  // preserve your dramatic slow entrance if you want it
                   transitionProperty: "opacity, transform",
                   transitionDuration: `${BUTTON_ENTRANCE_MS}ms`,
                   transitionTimingFunction: "cubic-bezier(.2,.9,.2,1)",
