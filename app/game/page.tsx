@@ -222,7 +222,7 @@ export default function Game() {
             const btnVisible = typingDone;
 
             const baseClasses =
-              "w-full py-4 bg-gradient-to-r from-cyan-600 to-cyan-500 hover:from-cyan-500 hover:to-cyan-400 rounded-2xl font-bold text-sm shadow-2xl transition transform hover:scale-[1.02] " +
+              "w-full py-4 bg-cyan-800 rounded-2xl font-bold text-sm shadow-2xl transition transform hover:scale-[1.02] " +
               (btnVisible
                 ? "opacity-100 translate-y-0 scale-100"
                 : "opacity-0 translate-y-6 scale-98 pointer-events-none");
