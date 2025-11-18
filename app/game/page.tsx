@@ -216,7 +216,7 @@ export default function Game() {
         </div>
       </div>
 
-      <div className="fixed bottom-0 left-0 right-0 p-6 bg-linear-to-t from-black">
+      <div className="fixed bottom-0 text-gray-300 left-0 right-0 p-6 bg-linear-to-t from-black">
         <div className="space-y-5 max-w-2xl mx-auto pb-12">
           {scene.choices?.map((c, i) => {
             const btnVisible = typingDone;
