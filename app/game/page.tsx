@@ -160,7 +160,7 @@ export default function Game() {
   if (scene.ending) {
     return (
       <main className="min-h-screen bg-black flex flex-col items-center justify-center p-8 text-center">
-        <h1 className="text-4xl font-black text-amber-600 mb-6 tracking-wider">
+        <h1 className="text-4xl font-black text-cyan-600 mb-6 tracking-wider">
           CASE CLOSED
         </h1>
 
@@ -181,7 +181,7 @@ export default function Game() {
               setCurrentId(START_ID);
             }}
             className={
-              "w-full px-6 py-2 bg-linear-to-r from-amber-600 to-amber-500 hover:from-amber-500 hover:to-amber-400 rounded-2xl font-bold text-sm shadow-2xl transition transform " +
+              "w-full px-6 py-2 bg-linear-to-r from-cyan-600 to-cyan-500 hover:from-cyan-500 hover:to-cyan-400 rounded-2xl font-bold text-sm shadow-2xl transition transform " +
               (typingDone
                 ? "opacity-100 translate-y-0 scale-100"
                 : "opacity-0 translate-y-6 scale-98 pointer-events-none")
@@ -202,15 +202,15 @@ export default function Game() {
   // ---------- NORMAL SCENE ----------
   return (
     <main className="min-h-screen bg-black text-gray-100 flex flex-col">
-      <div className="p-6 border-b border-amber-900/30 text-center">
-        <h1 className="text-3xl font-bold text-amber-500">THE NIGHT FILE</h1>
+      <div className="p-6 border-b border-cyan-900/30 text-center">
+        <h1 className="text-3xl font-bold text-cyan-500">THE NIGHT FILE</h1>
         <p className="text-sm text-gray-500 mt-1">
           {getChapterLabel(currentId)}
         </p>
       </div>
 
       <div className="flex-1 p-6 pb-20 overflow-y-auto">
-        <div className="bg-gray-950/80 border border-amber-900/30 rounded-2xl p-2">
+        <div className="bg-gray-950/80 border border-cyan-900/30 rounded-2xl p-2">
           <p
             className="text-base leading-relaxed text-gray-200 whitespace-pre-line font-medium"
             aria-live="polite"
@@ -231,7 +231,7 @@ export default function Game() {
             const btnVisible = typingDone;
 
             const baseClasses =
-              "w-full py-4 bg-gradient-to-r from-amber-600 to-amber-500 hover:from-amber-500 hover:to-amber-400 rounded-2xl font-bold text-sm shadow-2xl transition transform hover:scale-[1.02] " +
+              "w-full py-4 bg-gradient-to-r from-cyan-600 to-cyan-500 hover:from-cyan-500 hover:to-cyan-400 rounded-2xl font-bold text-sm shadow-2xl transition transform hover:scale-[1.02] " +
               (btnVisible
                 ? "opacity-100 translate-y-0 scale-100"
                 : "opacity-0 translate-y-6 scale-98 pointer-events-none");
