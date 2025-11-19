@@ -210,7 +210,7 @@ export default function Game() {
           >
             <span>{visibleText}</span>
             {!typingDone && (
-              <span className="inline-block ml-1 animate-blink">█</span>
+              <span className="inline-block ml-1 animate-blink">|</span>
             )}
           </p>
         </div>
