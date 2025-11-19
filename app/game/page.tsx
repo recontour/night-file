@@ -196,7 +196,7 @@ export default function Game() {
   return (
     <main className="min-h-screen bg-black text-gray-100 flex flex-col">
       <div className="p-6 border-b border-cyan-900/30 text-center">
-        <h1 className="text-3xl font-bold text-cyan-500">THE NIGHT FILE</h1>
+        <h1 className="text-3xl font-bold text-cyan-500">The Ashen Key</h1>
         <p className="text-sm text-gray-500 mt-1">
           {getChapterLabel(currentId)}
         </p>

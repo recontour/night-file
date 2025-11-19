@@ -1,375 +1,183 @@
 {
   "ch1_s1": {
-    "text": "11:47 PM. Rain hammers the city like a guilty conscience. You're outside the Blue Orchid when a woman's scream tears through the alley behind you. Your .38 feels heavier than the city tonight. A single streetlamp buzzes as if keeping time with your pulse.\n\nYou step toward the mouth of the alley and taste copper on the air. Some nights give you answers. Tonight smells like questions.",
+    "text": "London fog clings to the Bald Crown like an accusation. Specter watches Jabez Wilson fidget with a coin under the weak tavern lamp. The man's red hair is a flare against the dim wood; his hands tremble more from fear than age. Wilson tells a strange tale about a society called the Red-Headed League that paid him to copy an encyclopedia but vanished overnight.\n\n\"Where were you? I was looking for you,\" Wilson says, voice thick with a pleading that smells of trouble.\n\nSpecter notes pockets, posture, and the way Wilson keeps glancing at the street. He suspects the League is more than a joke; he suspects someone wanted it to look like one.",
     "choices": [
-      { "label": "Draw your gun and charge into the alley", "next": "ch1_s2" },
-      { "label": "Light a cigarette and listen first", "next": "ch2_s1" }
+      {
+        "label": "Visit the former League offices with Wilson",
+        "next": "ch1_s2"
+      },
+      { "label": "Investigate the League independently", "next": "ch1_s3" }
     ]
   },
 
   "ch1_s2": {
-    "text": "Gun up, you push past stacked crates. Blood beads on cardboard like a slow confession. A woman in red clutches a locket, her breath coming shallow and quick. Footsteps retreat into shadow — too quick, too light.\n\nYou taste ash and the raw edge of urgency. This neighborhood owes you answers. Tonight it might pay. There is a name stitched into the locket. It's a name you don't like.",
+    "text": "The sign at Pope's Court swings and rasps in the wind. Specter pushes the door and finds a single chair, a layer of dust, and the smell of someone who left in a hurry. He kneels and finds a scrap folded under the chair leg—a red hand gripping a key scratched into its face. Wilson paces, useless and frightened.\n\n\"They told me to copy until the sun set, then pay me twice what I earned,\" Wilson blurts, eyes on the scrap as if it might bite.\n\nSpecter pockets the paper. The sigil isn't common; whoever used it wanted it noticed only by those who already knew how to read scars.",
     "choices": [
-      { "label": "Follow the footsteps, don't lose him", "next": "ch1_s3" },
-      { "label": "Hold the woman and call the ambulance", "next": "ch1_s4" }
+      { "label": "Follow the symbol to the city registry", "next": "ch1_s4" },
+      { "label": "Question Wilson more aggressively", "next": "ch1_s5" }
     ]
   },
 
   "ch1_s3": {
-    "text": "You run. Rain steals your footprints but not the echo of his coat. He slips between a pawnshop and a shuttered bakery, a ghost with a purpose. You catch a glint of metal at his hip — not a gun, something polished, deliberate.\n\nThe chase bends around alleys that know how to hide secrets. You round the corner and the world narrows to breath and the scrape of boots. This chase smells like a setup.",
+    "text": "Specter visits the Gazette archives alone where ink and dust keep the city's small betrayals. He sifts notices until a private entry with the Red Hand Sigil surfaces—then vanishes from the record. Clerks murmur about deliberate erasure; someone in power scrubbed it out. That erasure smells like politics and money working together.\n\n\"You never saw them? Not even once?\" he asks a clerk who shrugs like a man who has learned the meaning of silence.\n\nSpecter leaves with a fingerprint of a conspiracy: the League left a mark and a clean hand erased it.",
     "choices": [
-      { "label": "Tackle him now", "next": "ch1_s4" },
-      { "label": "Circle and cut him off", "next": "ch2_s1" }
-    ]
-  },
-
-  "ch1_s4": {
-    "text": "You tackle. Rain and luck conspire; he spills a cigarette case and a photograph. The photograph is of a child, smiling in sunlight. The back has a scribbled address. He breaths curses and lies like cigarette smoke. His hands are empty but his eyes are calculating.\n\nYou can hear sirens far away — or is that hope? Choices cling to you like wet cloth.",
-    "choices": [
-      { "label": "Search the case for clues", "next": "ch1_s5" },
       {
-        "label": "Read the photograph and memorize the address",
-        "next": "ch2_s1"
-      }
-    ]
-  },
-
-  "ch1_s5": {
-    "text": "The case hides three things: a coin, a matchbook from the Red Anchor, and a folded note. The coin is old; the matchbook smells like an ashtray and cheap whiskey. The note reads: \"Don't look under the pier. — M.\" You fold the paper into your palm like a hot coal.\n\nYou let the man go because you need answers more than a victory. You light a cigarette and decide where to burn the night next.",
-    "choices": [
-      { "label": "Head to the Red Anchor", "next": "ch2_s1" },
-      { "label": "Go check the address on the photo", "next": "ch2_s2" }
+        "label": "Cross-reference the sigil with police files",
+        "next": "ch1_s4"
+      },
+      { "label": "Search for witnesses near Pope's Court", "next": "ch1_s5" }
     ]
   },
 
   "ch2_s1": {
-    "text": "The Red Anchor smells like spilled secrets and broken promises. Bartender eyes you like you owe him time. A woman behind the bar hums a song that sounds like a threat. A man named Doyle slides you a napkin with a name and a street scribbled on it.\n\nSomeone at a table laughs too loudly. Someone else watches you breathe. You feel the city leaning in to hear what you'll say next.",
+    "text": "Specter steps into the chamber and every hooded head pivots toward his lantern glow. The vault at the center hums with a low metallic pulse. Red symbols are carved into it, old enough to predate the bricks around them. A man with a silver-threaded robe raises his hand, signaling an uneasy halt.\n\n\"You walk in the wrong place, detective. London forgets those who trespass,\" the man says, his tone almost gentle.\n\nSpecter studies their formation. Not thugs. Not zealots. Something in-between: men who believe their purpose outweighs their sins.",
     "choices": [
-      { "label": "Ask about the name on the napkin", "next": "ch2_s2" },
-      { "label": "Threaten Doyle for answers", "next": "ch2_s3" }
+      { "label": "Demand to know what the League protects", "next": "ch2_s3" },
+      {
+        "label": "Pretend to negotiate and lower their guard",
+        "next": "ch2_s4"
+      }
     ]
   },
 
   "ch2_s2": {
-    "text": "The address on the photo brings you to a third-floor walkup smelling of old milk and older noise. A tired man answers, eyes rimmed in suspicion and regret. He recognizes the child in the photo and speaks of a woman who disappeared like weather.\n\nHe hands you a small package wrapped in wax paper and tells you to bury this night. You pocket the package but keep the man's face. The city gives you a breadcrumb and expects you to find the loaf.",
+    "text": "Specter retreats into the shadows, watching the ritual unfold. The hooded figures chant in low measure, hands moving in synchronized arcs. The vault emits a faint red glow, as if something inside responds to their rhythm. One of the men steps forward and places a folded document at the vault's base.\n\n\"The councilman delivered the final approvals. The city belongs to us beneath the streets,\" he mutters, unaware Specter listens.\n\nPolitics and occultism braided into a single rope—enough to hang the whole city if pulled wrong.",
     "choices": [
-      { "label": "Open the package now", "next": "ch2_s3" },
-      { "label": "Take it to a safe place", "next": "ch3_s1" }
+      { "label": "Steal the document after the ritual ends", "next": "ch2_s5" },
+      { "label": "Follow the councilman lead above ground", "next": "ch2_s6" }
     ]
   },
 
   "ch2_s3": {
-    "text": "You lean too hard on Doyle; the room tenses like a trapped animal. A door opens and a woman steps out — not the kind who forgives debt. She points at you with nothing but mercy-free eyes. Men in suits that smell of rain and money step forward.\n\nYou promised to be careful. You forgot to be quiet. Sometimes noise is louder than bullets.",
+    "text": "Specter steps closer to the vault, boots echoing across stone. The robed leader tilts his head, amused but wary. He gestures toward inscriptions etched around the vault's curve. Symbols spiral inward like a story told in reverse.\n\n\"We protect the knowledge your city built itself upon,\" the man explains. \"Kings, clerks, and criminals all begged for what lies inside. None deserved it. Do you?\"\n\nSpecter doesn't answer. Questions are better weapons when kept sheathed.",
     "choices": [
-      { "label": "Back down and listen", "next": "ch3_s1" },
-      { "label": "Walk out and follow the suits", "next": "ch3_s2" }
+      { "label": "Push closer and challenge the leader", "next": "ch2_s7" },
+      { "label": "Pretend curiosity and probe their motives", "next": "ch2_s4" }
     ]
   },
 
-  "ch3_s1": {
-    "text": "Safe place turns out to be a church basement with bad fluorescents and better ghosts. You open the wax paper: two bus tickets and a lock of hair tied with red thread. The hair smells like lavender and fear. A note tucked inside says: \"If you find this, run toward the sea.\"\n\nYou keep the tickets; you keep the hair; you keep your mouth closed. Choices are sharp as a preacher's sermon here.",
+  "ch2_s4": {
+    "text": "Specter softens his posture, letting his lantern dip as if in concession. A few figures relax their grip on hidden blades. The leader circles him, examining Specter like a relic himself.\n\n\"You understand balance, detective. We need balance more than loyalty,\" the leader says.\n\nSpecter notes a sigil tattoo on the man's wrist—half faded, half renewed. A sign of someone trapped between politics and something older.",
     "choices": [
-      { "label": "Use the bus tickets to chase the lead", "next": "ch3_s2" },
-      { "label": "Follow the sea lead instead", "next": "ch3_s3" }
+      {
+        "label": "Offer to assist them and gain access to the vault",
+        "next": "ch2_s7"
+      },
+      {
+        "label": "Exploit their trust and slip toward a side tunnel",
+        "next": "ch2_s6"
+      }
+    ]
+  },
+
+  "ch2_s5": {
+    "text": "Specter waits until the chanting wanes and the chamber empties. He slips from the shadows and retrieves the folded document left at the vault's base. Inside is a coded blueprint of London’s undercity with red marks showing influence routes, bribed officials, and a tunnel yet unopened.\n\n\"Someone paid dearly to keep this hidden,\" he mutters as he pockets it.\n\nThe blueprint points to the Old Mint district—a place where money once meant power and still does.",
+    "choices": [
+      { "label": "Head to the Old Mint tunnels", "next": "ch2_s7" },
+      { "label": "Confront the bribed councilman", "next": "ch2_s6" }
+    ]
+  },
+
+  "ch2_s6": {
+    "text": "Specter emerges from the tunnels and heads to the councilman's manor where candlelight leaks through tall windows. He watches servants shuffle with urgency uncommon for the hour. Inside, documents burn in a fireplace—an attempt to erase something vital.\n\n\"Specter? Here? Now? You should have stayed underground,\" a voice snaps from behind him.\n\nThe councilman stands armed with a small pistol, his hand trembling—not from fear, but from too much knowledge carried too long.",
+    "choices": [
+      {
+        "label": "Disarm the councilman and interrogate him",
+        "next": "ch2_s8"
+      },
+      { "label": "Leave him and pursue what he was burning", "next": "ch2_s5" }
+    ]
+  },
+
+  "ch2_s7": {
+    "text": "The deep tunnels below the Old Mint hum with a metallic vibration. Specter finds a secondary vault door etched with the same sigil but older, sharper. The air crackles faintly around it—like the relic inside is breathing against its stone cradle. Footsteps echo behind him, familiar and nervous.\n\n\"Specter, you shouldn't be here,\" Wilson says, face pale as candlewax.\n\nSpecter realizes Wilson wasn't followed—Wilson guided them.",
+    "choices": [
+      { "label": "Press Wilson for the truth", "next": "ch3_s1" },
+      { "label": "Ignore him and open the secondary vault", "next": "ch3_s2" }
+    ]
+  },
+
+  "ch2_s8": {
+    "text": "Specter forces the pistol from the councilman's hand and tosses it into the fire. The man collapses into a chair, trembling as though a weight finally slipped from his shoulders.\n\n\"We didn't join them,\" the councilman mutters. \"We feared them. The League doesn't want relics—they want the city shaped to their vision. And that vision requires the hand awakened.\"\n\nSpecter pockets a surviving fragment of the burned documents: a diagram of the relic with notes in an unfamiliar script.",
+    "choices": [
+      { "label": "Take the fragment to the tunnels", "next": "ch3_s2" },
+      { "label": "Press the councilman for names", "next": "ch3_s1" }
+    ]
+  },
+
+  "ch1_s4": {
+    "text": "At the registry, a man unlocks a cabinet with keys that rattle like old teeth. He reveals twine-bound files stamped with warnings older than most living men. The red hand appears on a ledger alongside names of city clerks, minor councilmen, and a few bankkeepers. The clerk's knuckles whiten when Specter mentions tunnels beneath the Old Quarter.\n\n\"We kept them from the public eye for a reason,\" the clerk says, voice low as a cellar door.\n\nSpecter feels a map of power unfold: occult custodianship braided with city politics. The League guarded something; now someone wants it moved.",
+    "choices": [
+      { "label": "Go underground through old sewer access", "next": "ch1_s6" },
+      { "label": "Return to press Wilson for more detail", "next": "ch1_s5" }
+    ]
+  },
+
+  "ch1_s5": {
+    "text": "Wilson's pawnshop smells of metal and small betrayals. He admits he saw a locked room once, voice dropping when he says the crowd spoke in clipped syllables that set his teeth on edge. He remembers a map pinned to a board with red circles marking tunnels and a single vault marked by a hand.\n\n\"They promised protection for a simple job. I never thought they meant this,\" Wilson confesses, hands shaking as he counts a handful of pennies.\n\nSpecter believes the man more than he likes; fear has a truth that lies rarely carry.",
+    "choices": [
+      { "label": "Search Wilson's pawnshop for hidden maps", "next": "ch1_s6" },
+      { "label": "Go underground immediately", "next": "ch1_s6" }
+    ]
+  },
+
+  "ch1_s6": {
+    "text": "The old tunnels breathe wet and slow. Specter's lantern throws a circle of light across stone steps carved before the railways. Red chalk marks lead into narrower passages; the sound of distant chanting threads the air like a low seam of threat. He follows until a chamber opens where hooded figures kneel around a vault, their gestures precise and practiced.\n\n\"Who comes at the hour of the ritual?\" a voice demands, and the hooded figures turn as one.\n\nSpecter already knows the answers he will accept are few: break the relic and scatter the League, walk away with its knowledge, or find himself trapped where loyalty and power make monsters of men.",
+    "choices": [
+      { "label": "Confront the chanters directly", "next": "ch2_s1" },
+      { "label": "Observe quietly and retreat for a plan", "next": "ch2_s2" }
+    ]
+  },
+  "ch3_s1": {
+    "text": "Wilson trembles in the tunnel torchlight, sweat carving thin tracks through the grime on his face. Specter grips him by the coat and drags him deeper into the Old Mint's buried passages. The air vibrates with a dull hum, the kind that speaks of metal, pressure, and old promises. Wilson's eyes dart everywhere but Specter's face.\n\n\"I didn't betray you. Not fully. They said they'd spare me if I brought you close. I swear it,\" Wilson blurts, voice cracking under its own weight.\n\nSpecter studies him, trying to decide whether he's a coward, a pawn, or something far worse.",
+    "choices": [
+      { "label": "Press Wilson further", "next": "ch3_s3" },
+      { "label": "Leave Wilson and approach the vault alone", "next": "ch3_s2" }
     ]
   },
 
   "ch3_s2": {
-    "text": "You tail the suits to a warehouse by the docks where fog eats light. Men move crates like they move lies: quietly and on schedule. You slip inside, heartbeat a metronome beneath your ribs. Inside, crates are full of toys stamped with a children's charity logo.\n\nThere are names on the boxes. Names you recognize and wish you didn't. Some networks run deeper than a night's rain.",
+    "text": "The secondary vault looms before Specter like a lung carved from stone. Symbols spiral across its face, red pigment filling ancient grooves. A faint glow leaks from the seams, pulsing like a heartbeat. The relic inside—whatever shape it takes—calls to something primal in the air. Specter presses his palm to the cold surface.\n\n\"The hand responds to the worthy, not the willing,\" a voice echoes from behind him.\n\nOne of the hooded figures steps forward, weapon sheathed, posture unreadable. Not hostile—yet not friendly either.",
     "choices": [
-      { "label": "Document the names and leave", "next": "ch3_s4" },
-      { "label": "Confront the man in charge", "next": "ch4_s1" }
+      { "label": "Open the vault", "next": "ending_revelation" },
+      {
+        "label": "Shadow the hooded figure and learn their plan",
+        "next": "ending_shadows"
+      }
     ]
   },
 
   "ch3_s3": {
-    "text": "The sea tastes like salt and stories when you reach the pier. A boy fishes under a light that coughs and dies. He tells you a name — three syllables you couldn't forget even if you tried. He gives you a small tin with a child's doodle inside.\n\nYou feel the weight of that doodle like a promise. The pier creaks like a throat clearing: someone else is coming.",
-    "choices": [
-      { "label": "Stay and wait for whoever's coming", "next": "ch3_s4" },
-      {
-        "label": "Leave the pier and follow a different lead",
-        "next": "ch4_s1"
-      }
-    ]
-  },
-
-  "ch3_s4": {
-    "text": "You make a list of names in the dust on your dashboard. One name doesn't fit the rest; it fits in your mouth like a coin. You realize someone has been coaching witnesses, rewriting memories one lie at a time. This isn't a snatch-and-run; it's a slow, deliberate burn.\n\nYou decide to trace the burn to its source. The city hums; you step toward the place where the hum is loudest.",
-    "choices": [
-      { "label": "Go to the social registry office", "next": "ch4_s1" },
-      { "label": "Visit the charity HQ covertly", "next": "ch4_s2" }
-    ]
-  },
-
-  "ch4_s1": {
-    "text": "Registry files smell like bureaucracy and neglect. You find a stamped note that links the charity to a shell company. The signature belongs to a councilman who smiles on TV and eats justice in private. You copy the document with shaking hands and a steady pen.\n\nSomeone watches you from a phone screen you don't see. When you leave, the sky has the thinness of a liar's promise.",
-    "choices": [
-      { "label": "Take the documents to a reporter", "next": "ch4_s2" },
-      { "label": "Confront the councilman directly", "next": "ch4_s3" }
-    ]
-  },
-
-  "ch4_s2": {
-    "text": "The charity HQ has a reception that smiles too hard. Photos of volunteers line the walls like a family album for strangers. A volunteer recognizes the doodle from the tin and goes pale. She whispers of a warehouse party where rich men buy luck and pretend it's charity.\n\nHer hands tremble; you offer a cigarette and a plan. Plans look better when they have someone else to hold them.",
-    "choices": [
-      { "label": "Attend the warehouse party undercover", "next": "ch4_s4" },
-      { "label": "Get the volunteer into protective custody", "next": "ch5_s1" }
-    ]
-  },
-
-  "ch4_s3": {
-    "text": "You meet the councilman under chandeliers and pretense. He pours you whiskey like a verdict. He calls names like currencies, trading futures for favors. He offers you a choice: walk away and live, or dig and die slowly.\n\nYou realize the city eats those who choose to be honest. Your hand steadies on the glass. Your mouth remembers what justice sounds like.",
-    "choices": [
-      { "label": "Take a bribe and walk away", "next": "ending_corrupt" },
-      { "label": "Decline and keep digging", "next": "ch5_s1" }
-    ]
-  },
-
-  "ch4_s4": {
-    "text": "Warehouse night smells of perfume and opportunism. You slip in, dressed in a borrowed life. Under a tent of fairy lights, deals are made and children are photographed, smiles stolen for invoices. You find a ledger with numbers that speak the language of trafficking.\n\nA woman in a silver dress makes eye contact with you — a call for help disguised as flirtation. You pocket a page and leave with a promise to burn the ledger later.",
+    "text": "Specter shoves Wilson against the stone and watches him buckle. The man weeps not from pain but resignation. Beyond him, voices echo—members of the League descending the steps in a slow and deliberate rhythm. Their silhouettes bloom in the lantern haze like a procession.\n\n\"You brought him, good. The relic awakens with fear and truth,\" one of them intones.\n\nWilson meets Specter's eyes then—not with apology, but with the calm of a man who made the wrong deal on the wrong night.",
     "choices": [
       {
-        "label": "Publish the ledger with a reporter immediately",
-        "next": "ch5_s1"
+        "label": "Turn on Wilson and fight your way out",
+        "next": "ending_betrayal"
       },
       {
-        "label": "Use the ledger to blackmail the men quietly",
-        "next": "ch5_s2"
+        "label": "Step forward and claim guardianship of the relic",
+        "next": "ending_guardian"
       }
     ]
   },
 
-  "ch5_s1": {
-    "text": "The reporter smells like old news and new hunger. He wants the ledger but not the trouble that comes with it. You trade him the names for a meeting place and a time. He promises to run the story if you bring him irrefutable proof.\n\nYou feel like handing him dynamite with a wick and a smile. You can trust him to print the truth or to bury it — newspapers have elbows too.",
-    "choices": [
-      { "label": "Set up a sting with the reporter", "next": "ch5_s2" },
-      { "label": "Keep gathering proof alone", "next": "ch6_s1" }
-    ]
-  },
-
-  "ch5_s2": {
-    "text": "Blackmail is a blunt instrument with a short temper. You send a message to one of the men and wait. He replies with a time, a place, and a photograph of someone you love. Your chest tightens; the world narrows to a single counting of breaths.\n\nYou realize your threats can cut both ways. You have to decide how much you are willing to break to fix this.",
-    "choices": [
-      { "label": "Go to the meeting and play your hand", "next": "ch6_s1" },
-      {
-        "label": "Burn the ledger and disappear the evidence",
-        "next": "ending_broken"
-      }
-    ]
-  },
-
-  "ch6_s1": {
-    "text": "You plan like a man who knows the cost of mistakes. A rooftop gives you a view of arrival paths and exit doors. You wait, watching men arrive with pockets full of explanation and palms full of sin. When the lights blink, you move — not loud, not proud, just a clean motion.\n\nThe meeting turns into a trap you had hoped to avoid. You're onstage now; improv is not your strength.",
-    "choices": [
-      {
-        "label": "Trigger the reporter's camera and expose them live",
-        "next": "ch6_s2"
-      },
-      {
-        "label": "Cut the power and plunge the room into chaos",
-        "next": "ch6_s3"
-      }
-    ]
-  },
-
-  "ch6_s2": {
-    "text": "Flashes, shouts, men scrambling like insects under a boot. The reporter broadcasts names, faces, hands in plates of scandal. Some men sprint for lawyers, others for exits. A figure slips a child into a car and drives into the night like it owes them money.\n\nThe world divides into those who run and those who stand. You're left holding a half-truth, which is almost as dangerous as a lie.",
-    "choices": [
-      { "label": "Chase the car that took the child", "next": "ch6_s4" },
-      { "label": "Secure the women and children left behind", "next": "ch7_s1" }
-    ]
-  },
-
-  "ch6_s3": {
-    "text": "The lights die and men fumble for commands. You slip through shadows and find a back room where paperwork sleeps like corpses. A door opens and you see rows of crates labeled with codes — names encrypted into numbers. Some of the crates have small hands painted on them for the paperwork's conscience.\n\nYou take pictures with a trembling camera and your hands learn to be steady. The dark hides many sins, but your flashlight does not lie.",
-    "choices": [
-      {
-        "label": "Follow the crates' trail to a shipping manifest",
-        "next": "ch6_s4"
-      },
-      {
-        "label": "Burn the paperwork and hope truth survives",
-        "next": "ending_fall"
-      }
-    ]
-  },
-
-  "ch6_s4": {
-    "text": "You follow the car into industrial outskirts where the city forgets to look. The child is alive but scared, wrapped in someone else's jacket. A driver tries to bargain with you; his voice is a slippery thing. You trade words for the child's safety and realize bargains change people.\n\nYou get the child back and see a face in the rearview that will haunt you. The city is quieter when a small life stops trembling.",
-    "choices": [
-      { "label": "Take the child to a safe house", "next": "ch7_s1" },
-      {
-        "label": "Demand the face in the rearview explain himself",
-        "next": "ch7_s2"
-      }
-    ]
-  },
-
-  "ch7_s1": {
-    "text": "The safe house cures immediate fear but not the long shadow. The volunteer who runs it has tired hands and a calendar full of miracles. You sit with the child while she sleeps and count small breaths like rosary beads. Outside, men who used to be untouchable breathe and plan.\n\nHope needs protection. So do witnesses. You consider staying long enough to watch over both.",
-    "choices": [
-      { "label": "Stay and help run protection", "next": "ending_legacy" },
-      { "label": "Go after those still pulling strings", "next": "ch7_s2" }
-    ]
-  },
-
-  "ch7_s2": {
-    "text": "The man in the rearview is a planner: sharp suit, clean shoes, surgical calm. He speaks in metaphors and threats; he asks what you want. You tell him you want truth. He offers compromise and a file folder. Inside is a list: names, dates, and a photo of someone you thought dead.\n\nYou realize the game is older than you and the rules are written in people's bones. Bargains sting, but sometimes they buy the only kind of progress you can afford.",
-    "choices": [
-      { "label": "Accept the compromise and use the file", "next": "ch8_s1" },
-      {
-        "label": "Destroy the file and burn the ties",
-        "next": "ending_sacrifice"
-      }
-    ]
-  },
-
-  "ch8_s1": {
-    "text": "You leverage the file like a crowbar against the city's bones. Doors open, then slam. Men who smiled before now look like men who lost a card game. You trade secrets for protection and make enemies into reluctant allies.\n\nA woman you once loved calls and asks if you are still the man she left for safety. You answer with actions instead of words. Actions write the next chapter better than good intentions ever could.",
-    "choices": [
-      {
-        "label": "Use your allies to take down the councilman",
-        "next": "ch8_s2"
-      },
-      {
-        "label": "Expose the network publicly and trust the law",
-        "next": "ch8_s3"
-      }
-    ]
-  },
-
-  "ch8_s2": {
-    "text": "You orchestrate a takedown with people who have nothing left to lose. They move like well-trained storms: precise, cold, efficient. The councilman loses his smile under bright lights and legal questions. Some men go to jail; some men get new addresses and new mouths to feed them lies.\n\nYou win a battlefield but the war keeps its teeth. You count the cost and realize some debts will never be paid in cash.",
-    "choices": [
-      { "label": "Press for indictments and testimony", "next": "ch9_s1" },
-      {
-        "label": "Let the system chew on what you put in front of it",
-        "next": "ending_truth"
-      }
-    ]
-  },
-
-  "ch8_s3": {
-    "text": "You hand the dossier to the authorities and hope their teeth are sharp. Investigators file the papers and move. Red tape smells like both safety and surrender. In weeks that follow, small victories appear: arrests, public apologies, quiet resignations.\n\nBut the network reforms where it is weakest, like a vine finding new light. You didn't remove the root. You trimmed the leaves. The city breathes differently but not cleanly.",
-    "choices": [
-      { "label": "Keep pressure on the institutions", "next": "ch9_s1" },
-      {
-        "label": "Walk away and restart somewhere the sun remembers",
-        "next": "ending_escape"
-      }
-    ]
-  },
-
-  "ch9_s1": {
-    "text": "Trials are loud and boring and full of lawyers who practice patience like prayer. Witnesses tremble on stands, voices thin but true. A key witness recants in the middle of testimony and your heart does a small, ugly flip. You discover the cost of a public fight: collateral truth.\n\nSometimes justice comes with a stain you can't scrub out. You hold the line while everything else tries to sway you.",
-    "choices": [
-      {
-        "label": "Expose the recanting with evidence you hid",
-        "next": "ch9_s2"
-      },
-      {
-        "label": "Let the witness go and protect future testimony",
-        "next": "ch10_s1"
-      }
-    ]
-  },
-
-  "ch9_s2": {
-    "text": "You produce the hidden evidence: emails, receipts, photos that show coercion. The courtroom gasps and the judge leans forward like a man listening for a confession. The recanting witness returns to the truth with a shaking voice. Men who once bought silence now face a stack of subpoenas and a lifetime of bad press.\n\nThe city applauds in headlines; the alleyways clap in whispers. You feel a small victory — and the ache of its cost.",
-    "choices": [
-      { "label": "Push for maximum sentences", "next": "ending_redemption" },
-      {
-        "label": "Seek restorative justice for victims",
-        "next": "ending_legacy"
-      }
-    ]
-  },
-
-  "ch10_s1": {
-    "text": "You choose to guard the witnesses, to be a fence between truth and retribution. It is a quiet life of coffee at odd hours and watching the same hallway twice. The children learn to sleep without nightmares; the mothers learn to laugh again. It is not a flashy victory. It is the kind of work old men who loved once respect.\n\nYou find nights where your breath is not an accusation but a benediction. Sometimes the world fixes itself in small, steady stitches.",
-    "choices": [
-      {
-        "label": "Keep protecting; make the shelter permanent",
-        "next": "ending_legacy"
-      },
-      {
-        "label": "Use your position to root out the remaining network",
-        "next": "ch10_s2"
-      }
-    ]
-  },
-
-  "ch10_s2": {
-    "text": "The remaining nodes are clever and bored and underpaid. You move like an undertow — slow, inexorable, cold. You expose a banker, a lawyer, a small-time fixer who liked power the way some men like perfume. They fall not with a bang but with the soft, legal thud of paperwork.\n\nYou wonder if changing names changes the hunger. The city keeps turning, but a few of its teeth have been pulled.",
-    "choices": [
-      {
-        "label": "Publicize the final names and close the case",
-        "next": "ending_caseclosed"
-      },
-      {
-        "label": "Let the cases move quietly through courts",
-        "next": "ending_truth"
-      }
-    ]
-  },
-
-  "ending_bad_trigger": {
-    "text": "Your bullet hits center mass. He falls. It was a silver cigarette case. The woman dies before the ambulance arrives.\n\nThe papers brand you a killer cop. CASE CLOSED — TRIGGER HAPPY",
+  "ending_revelation": {
+    "text": "Specter steps into the chamber, lantern held like a small rebellion. Hooded figures surge forward with a sound like leather and oath. The relic—a hand clutching a bone key—gleams with a light that makes the air taste metallic. Specter lifts his lantern high and, with a single, brutal swing from a broken length of pipe, he shatters the relic against the stone.\n\n\"You don't know what you've done,\" someone hisses, voice ragged with disbelief.\n\nThe chanting dies, the vault's glow gutters, and the League collapses into furious, leaderless scrambling. Specter walks out into London rain; the threat is scattered, not slain. CASE CLOSED — REVELATION",
     "ending": true
   },
 
-  "ending_blood_love": {
-    "text": "Your bullet finds his heart. Vivian runs into your arms, tears mixing with rain. You saved her.\n\nShe calls you every night for the rest of your life. CASE CLOSED — BLOOD & LOVE",
+  "ending_shadows": {
+    "text": "Specter watches as the ritual completes, the hooded figures reverent and careful. The relic rests like a sleeping thing in the vault, pages and scrolls whispering around it. He steps back into the dark and closes the passage behind him, carrying only memories and a stolen list of names.\n\n\"Keep quiet, and you'll survive longer than those who shout,\" a departing figure murmurs as the steps swallow his silhouette.\n\nSpecter returns to the city with knowledge that eats at him in private hours. He keeps the secret and the men who would wield it keep hunting. CASE CLOSED — SHADOWS",
     "ending": true
   },
 
-  "ending_too_late": {
-    "text": "Marcus laughs, shoots her anyway. Your bullet comes one second too late. Some cases you never close.\n\nCASE CLOSED — TOO LATE",
+  "ending_betrayal": {
+    "text": "Wilson's eyes are old and empty as he turns his hand toward the robed men. For a beat Specter sees the boy who wanted easy coin; then the man who chose survival. The hooded figures seize Wilson with practiced movements. In the confusion someone slams a lever and the tunnel trembles.\n\n\"We promised him safety for the name, and he kept his promise,\" the leader intones, as stone grinds and dust falls.\n\nSpecter fights, but the passage collapses behind him and the relic vanishes with Wilson into the earth. The city never learns what lay beneath that night. CASE CLOSED — BETRAYAL",
     "ending": true
   },
 
-  "ending_corrupt": {
-    "text": "You take the cash and the quiet life becomes a cage of velvet and lies. You sleep easier at first, but every dream has a price. People stop looking you in the eyes. You stop looking back.\n\nIn the end, you trade your name for comfort. CASE CLOSED — CORRUPT",
-    "ending": true
-  },
-
-  "ending_broken": {
-    "text": "You burn the ledger and watch the evidence curl into ash. Men continue their work elsewhere where you cannot find them. You have a moment of safety and a lifetime of questions.\n\nThe child sleeps, but the city keeps bleeding. CASE CLOSED — BROKEN",
-    "ending": true
-  },
-
-  "ending_fall": {
-    "text": "You burn the paperwork in a fit of righteous despair. Fire feels like control until it severs the one thread of proof you had. Without the papers the trials collapse like scaffolding in a storm.\n\nYou learn that some righteous acts are really just surrender. CASE CLOSED — FALL",
-    "ending": true
-  },
-
-  "ending_legacy": {
-    "text": "You stay and build protection like bricks stacked against weather. Years pass; children grow into adults who remember the kindness that kept them safe. You become a footnote in someone else's life and a foundation in theirs.\n\nIt is small and it is huge and it heals edges you thought were permanent. CASE CLOSED — LEGACY",
-    "ending": true
-  },
-
-  "ending_sacrifice": {
-    "text": "You destroy the file and walk away into a life of faded shadows. You traded the chance for revenge for the safety of those who deserved innocence.\n\nSometimes doing the moral thing costs the thing you love most. You live with that choice like a stone in your pocket. CASE CLOSED — SACRIFICE",
-    "ending": true
-  },
-
-  "ending_truth": {
-    "text": "You push for transparency and watch institutions trip over their own sins. The law moves clumsy but it moves. People are held to account in the open light.\n\nIt is imperfect, loud, and human — but it changes the map. You are tired, but you sleep without a blade against your neck. CASE CLOSED — TRUTH",
-    "ending": true
-  },
-
-  "ending_escape": {
-    "text": "You hand evidence to the authorities and leave town before the ink dries. A new sunrise finds you in another city where taxis don't know your name. You live quieter, smaller, but alive.\n\nSome victories cost the right to stay. CASE CLOSED — ESCAPE",
-    "ending": true
-  },
-
-  "ending_redemption": {
-    "text": "You press until the courthouse doors close on men who thought themselves untouchable. Sentences carry weight and the guilty pay in ways that matter. You stand in the light of a slow, hard justice and feel the old weight lift a fraction.\n\nIt's not clean or whole, but it is something like healing. CASE CLOSED — REDEMPTION",
-    "ending": true
-  },
-
-  "ending_caseclosed": {
-    "text": "You publish the names, the ledgers, the receipts, and the whispers become a storm. There are apologies on paper and new laws drafted in shame. The people you saved learn to walk in daylight.\n\nYou close the file with hands that tremble and a face that remembers. CASE CLOSED — FINAL",
+  "ending_guardian": {
+    "text": "Specter lays down his lantern and says nothing for a long minute, letting the silence do the work of truth. He speaks not with force but with a proposition—safety for the city in exchange for stewardship. The elders argue like judges over a life; finally, they nod, not because they trust him but because they fear the alternatives.\n\n\"Take it into the daylight when you must. Keep it buried when you can,\" the leader tells him, pressing a red-marked token into Specter's palm.\n\nSpecter becomes something like a guardian: watched by some, trusted by none, and needed by many. He wears the role like a coat with too many pockets. CASE CLOSED — GUARDIAN",
     "ending": true
   }
 }
